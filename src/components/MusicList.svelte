@@ -9,6 +9,7 @@
         MusicStore.update((values) => {
           return {
             ...values,
+            paused: true,
             currentMusicId: music.id,
           };
         });
